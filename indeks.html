@@ -1,108 +1,130 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Website Pribadi Sederhana</title>
-    </head>
+</head>
+
 <body>
+
     <!-- Header -->
-     <header>
+    <header>
         <h1>Vajra Keyura Putri</h1>
-     </header>
+    </header>
 
-     <!-- Navigasi-->
-      <nav>
-        <a href="#" >Home</a>
-        <a href="#" >About</a>
-        <a href="#" >Contact</a>
-      </nav>
+    <!-- Navigasi -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<!--Konten Halaman -->
-<main>
-    <section>
-        <h3>About Me</h3>
+    <!-- Konten Halaman -->
+    <main>
 
-    <article>
-        <p>     Vajra Keyura, yang lebih akrab dipanggil Keyura, merupakan 
-            sosok yang memiliki penampilan lembut dan rapi. Kehadirannya 
+        <!-- HOME -->
+        <section id="home" class="home">
+            <h1>Keyura's Skill :</h1>
+            <ol>
+                <li>Bermain alat musik seperti gitar</li>
+                <li>Bernyanyi</li>
+                <li>Menulis dengan rapi</li>
+                <li>Naik motor</li>
+                <li>Memasak western food</li>
+            </ol>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about">
+            <h3>About Me</h3>
+
+            <article>
+
+                <p>
+                    <hr>
+                    &nbsp;&nbsp;&nbsp;Vajra Keyura, yang lebih akrab dipanggil Keyura, merupakan 
+            sosok yang memiliki penampilan lembut dan rapi.</space> Kehadirannya 
             selalu memberikan kesan tenang dan bersahaja, namun tetap 
             memancarkan pesona yang mudah dikenali oleh orang di sekitarnya.
+    
+                </p>
 
-                Dengan tubuh yang kurus dan tinggi, Keyura tampil dengan postur 
+                <p>
+                    <hr>
+                    &nbsp;&nbsp;&nbsp;Dengan tubuh yang kurus dan tinggi, Keyura tampil dengan postur 
             yang anggun. Geraknya cenderung halus dan teratur, memberikan 
             kesan bahwa ia adalah pribadi yang menjaga kerapian dan kenyamanan 
-            dalam setiap langkah. Penampilannya mencerminkan karakter remaja 
-            penuh kerapihan.
+            dalam setiap langkah. Penampilannya mencerminkan karakter remaja.
+                </p>
 
-                Kacamata yang dikenakannya menjadi salah satu ciri fisik yang 
+                <p>
+                    <hr>
+                    &nbsp;&nbsp;&nbsp;Kacamata yang dikenakannya menjadi salah satu ciri fisik yang 
             menonjol. Selain menambah kesan cerdas, kacamata tersebut memberikan 
             sentuhan manis pada penampilannya. Perpaduan antara postur tubuhnya 
-            dan gaya sederhana ini membuatnya terlihat sangat estetik.
+            dan gaya sederhana ini membuatnya terlihat sangat estetik.&nbsp;</p></p>
 
-                Wajah Keyura memiliki kecantikan yang natural dan menenangkan. 
+                <p>
+                    <hr>
+                    &nbsp;&nbsp;&nbsp;Wajah Keyura memiliki kecantikan yang natural dan menenangkan. 
             Senyumnya lembut, ekspresinya ramah, dan sorot matanya memberikan kesan
             hangat. Kecantikan yang dimilikinya bukanlah yang mencolok, melainkan yang 
-            terasa nyaman dan tulus bagi orang lain.
+            terasa nyaman dan tulus bagi orang lain.&nbsp;</p></p>
+                </p>
 
-                Secara keseluruhan, Keyura adalah pribadi dengan pesona fisik yang 
+                <p>
+                    <hr>
+                    &nbsp;&nbsp;&nbsp;Secara keseluruhan, Keyura adalah pribadi dengan pesona fisik yang 
             sederhana namun elegan. Tingginya, bentuk tubuhnya, dan karakter wajahnya 
             menyatu menjadi tampilan yang rapi, anggun, dan berkesan. Ia mencerminkan
-            remaja yang penuh nilai positif, baik dalam cara dirinya hadir maupun membawa diri.
+            remaja yang penuh nilai positif, baik dalam cara dirinya hadir maupun membawa diri.&nbsp;</p></p>
         </p>
-    </article>
-    </section>
+                </p>
 
-    <section>
-        <!--Membuat Ordered List-->
-           <h1>Keyura's Skill :</h1>
-           <ol>
-            <li>Bermain Alat Musik seperti Gitar</li>
-            <li>Bernyanyi</li>
-            <li>Menulis dengan rapi</li>
-            <li>Naik motor</li>
-            <li>Memasak western food</li>
-           </ol>
-    </section>
+            </article>
+        </section>
 
-    <section>
-        <form action="contact.php" method="post">
-            <fieldset>
-            <legend>Contact</legend>
-            <p>
-                <label>Name :</label>
-                <input type="text" name="name" placeholder="Keyyy" />
-            </p>
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <form action="contact.php" method="post">
+                <fieldset>
+                    <legend>Contact</legend>
 
-            <p>
-                <label>Subject:</label>
-                <input type="text" name="subject" placeholder="subjek saya...." />
-            </p>
+                    <p>
+                        <label>Name :</label>
+                        <input type="text" name="name" placeholder="Keyyy" />
+                    </p>
 
-            <p>
-                <label>Email :</label>
-                <input type="text" name="email" placeholder="emailsaya@gnail.com" />
-            </p>
+                    <p>
+                        <label>Subject :</label>
+                        <input type="text" name="subject" placeholder="subjek saya...." />
+                    </p>
 
-            <p>
-                <label>Nomor Telepon :</label>
-                <input type="text" name="nomor telepon" placeholder="0812345678911" />
-            </p>
+                    <p>
+                        <label>Email :</label>
+                        <input type="text" name="email" placeholder="emailsaya@gmail.com" />
+                    </p>
 
-            <p>
-                <input type="submit" name="submit" value="send">
-            </p>
-        
-            </fieldset>
-        </form>
+                    <p>
+                        <label>Nomor Telepon :</label>
+                        <input type="text" name="nomor_telepon" placeholder="0812345678911" />
+                    </p>
 
-    </section>
-</main>
-   <footer>
-     <p class="p">@copy; 2025 Vajra Keyura</p>
-   </footer>
+                    <p>
+                        <input type="submit" value="Send">
+                    </p>
 
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>@copy; 2025 Vajra Keyura</p>
+    </footer>
 
 </body>
 </html>
